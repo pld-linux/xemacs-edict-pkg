@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lisp Interface to EDICT, Kanji Dictionary.
 
-%description -l pl 
+%description -l pl
 Interfejs Lispa do EDICT, s³ownika Kanji.
 
 %prep
@@ -30,13 +30,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/edict/ChangeLog 
+gzip -9nf lisp/edict/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/edict/ChangeLog.gz 
+%doc lisp/edict/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
