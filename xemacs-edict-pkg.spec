@@ -2,12 +2,12 @@ Summary:	Lisp Interface to EDICT, Kanji Dictionary
 Summary(pl):	Interfejs Lispa do EDICT, s³ownika Kanji
 Name:		xemacs-edict-pkg
 %define 	srcname	edict
-Version:	1.13
+Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	ceef82c336de553e504aa3d216fbd366
+# Source0-md5:	406e55fda150ec0ea22b79580279be95
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
