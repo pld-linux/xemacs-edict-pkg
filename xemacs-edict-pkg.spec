@@ -2,7 +2,7 @@ Summary:	Lisp Interface to EDICT, Kanji Dictionary
 Summary(pl):	Lisp Interface to EDICT, Kanji Dictionary
 Name:		xemacs-edict-pkg
 %define 	srcname	edict
-Version:	1.10
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
