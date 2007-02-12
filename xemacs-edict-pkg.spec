@@ -1,5 +1,5 @@
 Summary:	Lisp Interface to EDICT, Kanji Dictionary
-Summary(pl):	Interfejs Lispa do EDICT, s≥ownika Kanji
+Summary(pl.UTF-8):   Interfejs Lispa do EDICT, s≈Çownika Kanji
 Name:		xemacs-edict-pkg
 %define 	srcname	edict
 Version:	1.16
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Lisp Interface to EDICT, Kanji Dictionary.
 
-%description -l pl
-Interfejs Lispa do EDICT, s≥ownika Kanji.
+%description -l pl.UTF-8
+Interfejs Lispa do EDICT, s≈Çownika Kanji.
 
 %prep
 %setup -q -c
